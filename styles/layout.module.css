@@ -1,0 +1,23 @@
+.header{
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+}
+
+/*Improve the main style*/
+.main{
+    padding: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.main a{
+    color: var(--brand11);
+}

@@ -1,0 +1,10 @@
+.link{
+    text-decoration: none;
+    font-size: large;
+    color: var(--secondary-color);
+}
+@media screen and (max-width: 768px){
+    .link{
+        font-size: x-large;
+    }
+}
