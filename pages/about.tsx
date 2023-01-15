@@ -1,13 +1,33 @@
-import mainStyle from '../styles/layout.module.css';
-
 /**
  * 
  * @todo: write the content about me
  */
 export default function About() {
   return (
-    <main className={mainStyle.main}>
-      <h1>About Me</h1>
-    </main>
+    <>
+      <div>
+        <h1>About Me</h1>
+        <p>I'm Augustin Mauroy...</p>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ullam necessitatibus praesentium accusamus, natus dicta nostrum voluptates, perspiciatis laboriosam officiis deleniti fugiat assumenda odit delectus, earum perferendis iste dolorem inventore?</p>
+
+    </>
   )
 }

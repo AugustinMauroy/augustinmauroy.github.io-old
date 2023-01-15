@@ -5,19 +5,32 @@
     z-index: 1;
     display: flex;
     gap: 10px;
+    border-bottom: solid 1px var(--dark-color);
+    background-color: var(--primary-color);
 }
 
-/*Improve the main style*/
 .main{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 70%;
+    
+}
+@media screen and (max-width: 600px){
+    .main{
+        max-width: 100%;
+    }
 }
 
+/*Todo: find an solution*/
 .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+    
 }
 .main a{
-    color: var(--brand11);
+    color: var(--secondary-color);    
+}
+.main a:hover{
+    color: var(--brand4);
+    text-decoration: underline;    
 }

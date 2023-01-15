@@ -3,6 +3,10 @@
     font-size: large;
     color: var(--secondary-color);
 }
+.link:hover{
+    color: var(--brand4);
+    text-decoration: underline;
+}
 @media screen and (max-width: 768px){
     .link{
         font-size: x-large;
