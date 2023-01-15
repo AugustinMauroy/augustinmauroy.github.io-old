@@ -70,17 +70,17 @@
     --pink8: #8b1245;
     --pink9: #411526;
     /*Typographie*/
-    --primary-color: var(--black10);
-    --secondary-color: var(--black0);
+    --primary-color: var(--black0);
+    --secondary-color: var(--black10);
     --light-color: var(--black1);
     --dark-color: var(--black9);
 
 }
 
-@media (pref-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
-        --primary-color: var(--black0);
-        --secondary-color: var(--black10);
+        --primary-color: var(--black10);
+        --secondary-color: var(--black0);
     }
 }
 
