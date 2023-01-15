@@ -9,11 +9,12 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    border: solid 2px var(--brand4);
 }
 .social{
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  margin: 0 auto;
+
 }

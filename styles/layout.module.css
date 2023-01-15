@@ -1,31 +1,42 @@
+.body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header" "main" "footer";
+    min-height: 100vh;
+}
+
 .header{
-    padding: 10px;
-    position: sticky;
-    top: 0;
+    grid-area: header;
     z-index: 1;
     display: flex;
     gap: 10px;
     border-bottom: solid 1px var(--dark-color);
     background-color: var(--primary-color);
+    padding: 1rem;
 }
 
 .main{
+    grid-area: main;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin: 0 auto;
     max-width: 70%;
-    
+    min-width: 70%;
+    margin: 0 auto;
 }
 @media screen and (max-width: 600px){
     .main{
         max-width: 100%;
+        min-width: 100%;
     }
 }
 
-/*Todo: find an solution*/
 .footer{
-    
+    grid-area: footer;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 1rem;
 }
 .main a{
     color: var(--secondary-color);    
