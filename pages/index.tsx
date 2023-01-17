@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import style from '../styles/index.module.css';
 
-/**
- * @todo: add a picture of me
- */
 export default function Home() {
   return (
   <>

@@ -1,7 +1,3 @@
-/**
- * 
- * @todo: write the content about me
- */
 export default function About() {
   return (
     <>
