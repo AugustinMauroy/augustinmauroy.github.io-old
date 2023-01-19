@@ -4,11 +4,6 @@
 
 * add picture of me
 
-## projects
-
-* Create page
-* Write text about projects
-
 ## about
 
 * Improve wih color
