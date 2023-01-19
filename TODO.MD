@@ -11,7 +11,7 @@
 
 ## about
 
-* write about me
+* Improve wih color
 
 ## General
 
