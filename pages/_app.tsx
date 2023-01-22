@@ -8,10 +8,9 @@ import '../styles/globals.css'
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (<>
         <Head>
-            <link rel="icon" href="/logo.ico" sizes="any" />
             <title>Augustin's Portfolio</title>
-            <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-            <link rel="apple-touch-icon" href="/logo.svg" />
+            <link rel="icon" type="image/x-icon" href="logo.ico" />
+            <link rel="icon" type="image/xml-svg" href="logo.svg" />
             <meta name="description" content="Augustin's Portfolio" />
             <meta name="og:title" content="Augustin's Portfolio" />
         </Head>

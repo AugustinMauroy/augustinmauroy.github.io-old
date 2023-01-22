@@ -6,7 +6,7 @@
 
 ## about
 
-* Improve wih color
+* Improve with color
 
 ## General
 
