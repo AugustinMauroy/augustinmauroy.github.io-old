@@ -6,7 +6,7 @@ export default function Home() {
   <>
   <article className={style.main}>
     <div className={style.presentation}>
-        <img src='placeholder-img.png'></img>
+        <img src='me.jpeg'></img>
         <div>
         <h1>Augustin Mauroy</h1>
         <p>Hi 👋 I'm Augustin. I'm 16 year old. I'm full stack web dev.</p>

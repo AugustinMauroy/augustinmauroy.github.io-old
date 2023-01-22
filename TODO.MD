@@ -1,9 +1,5 @@
 # TODO
 
-## index
-
-* add picture of me
-
 ## about
 
 * Improve with color
