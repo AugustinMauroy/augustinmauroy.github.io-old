@@ -12,7 +12,7 @@ export default function footer(){
 
     return(
     <footer  className={style.footer}>
-        <p>Augustin Mauroy © {date(2023)}</p>
+        <p>MIT License copyright © {date(2023)} Augustin Mauroy</p>
     </footer>
     )
 }
