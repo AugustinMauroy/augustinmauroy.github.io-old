@@ -24,7 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout ✅
         uses: actions/checkout@v3
       - name: Detect package manager
         id: detect-package-manager
@@ -46,9 +46,9 @@ jobs:
       - name: Setup 🟢Node🟢
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "latest"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Setup Pages
+      - name: Setup Pages 📄
         uses: actions/configure-pages@v2
         with:
           # Automatically inject basePath in your Next.js configuration file and disable
