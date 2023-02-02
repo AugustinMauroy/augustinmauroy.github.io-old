@@ -1,3 +1,5 @@
 .next
 node_modules
+
+# Unix's files
 .DS_Store
