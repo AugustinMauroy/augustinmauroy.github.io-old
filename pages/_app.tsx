@@ -1,12 +1,19 @@
+
+import type { AppProps } from 'next/app'
+import Head from 'next/head'
+import { Open_Sans } from '@next/font/google'
+import '../styles/globals.css'
+import mainStyle from '../styles/layout.module.css';
 import Header from '../components/header'
 import Footer from '../components/footer'
-import type { AppProps } from 'next/app'
-import mainStyle from '../styles/layout.module.css';
-import Head from 'next/head'
-import '../styles/globals.css'
+
+const font = Open_Sans({
+    subsets: ['latin']
+})
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-    return (<>
+    return (
+    <div className={font.className}>
         <Head>
             <title>Augustin's Portfolio</title>
             <link rel="icon" type="image/x-icon" href="logo.ico" />
@@ -21,6 +28,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         </main>
         <Footer />
         </div>
-    </>
+    </div>
     )
 }
