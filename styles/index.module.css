@@ -8,6 +8,8 @@
 .presentation img{
     border-radius: 50%;
     border: solid 2px var(--brand4);
+    width: 200px;
+    height: 200px;
 }
 .social{
   display: flex;

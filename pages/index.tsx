@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import style from '../styles/index.module.css';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 
@@ -8,7 +7,7 @@ export default function Home() {
   <>
   <article className={style.main}>
     <div className={style.presentation}>
-        <Image src='/me.jpeg' alt='an profile picture' width={200} height={200}/>
+        <img src='/me.jpeg' alt='an profile picture'/>
         <div>
         <h1>Augustin Mauroy</h1>
         <p>Hi 👋 I&apos;m Augustin. I&apos;m 16 year old. I&apos;m full stack web dev.</p>
