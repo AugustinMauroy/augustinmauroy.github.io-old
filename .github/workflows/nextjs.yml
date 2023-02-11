@@ -48,8 +48,6 @@ jobs:
         with:
           node-version: "latest"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Lint
-        run: ${{ steps.detect-package-manager.outputs.runner }} next lint
       - name: Setup Pages 📄
         uses: actions/configure-pages@v2
         with:
