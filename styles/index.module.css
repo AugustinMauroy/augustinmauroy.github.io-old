@@ -7,8 +7,6 @@
 }
 .presentation img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
     border: solid 2px var(--brand4);
 }
 .social{
