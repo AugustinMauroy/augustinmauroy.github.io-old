@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div>
           <h2><FaTwitter /> Twitter</h2>
-          <p>In my Twitter account you can found some communication</p>
+          <p>In my Twitter account you can found some communication.</p>
           <Link href='https://twitter.com/_August1_' target='_blank'>Look up my twitter Account</Link>
         </div>
       </div>
