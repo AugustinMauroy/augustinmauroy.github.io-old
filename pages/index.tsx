@@ -7,7 +7,7 @@ export default function Home() {
   <>
   <article className={style.main}>
     <div className={style.presentation}>
-        <img src='/me.jpeg' alt='an profile picture'/>
+        <img src='/me.jpeg' alt='an profile picture' />
         <div>
         <h1>Augustin Mauroy</h1>
         <p>Hi 👋 I&apos;m Augustin. I&apos;m 16 year old. I&apos;m full stack web dev.</p>
@@ -28,5 +28,5 @@ export default function Home() {
       </div>
     </article>
     </>
-  )
+  );
 }

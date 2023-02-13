@@ -1,5 +1,9 @@
-.next
+# dependencies
 node_modules
+
+# build output
+out
+.next
 
 # Unix's files
 .DS_Store

@@ -13,5 +13,5 @@ export default function error(){
           {error404()}
         </div>
       </>
-  )
+  );
 }

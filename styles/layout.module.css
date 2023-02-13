@@ -34,9 +34,8 @@
 .footer{
     grid-area: footer;
     display: flex;
-    justify-content: left;
-    align-items: left;
-    padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .main a{
     color: var(--secondary-color);    

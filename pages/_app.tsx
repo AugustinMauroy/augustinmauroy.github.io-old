@@ -1,15 +1,15 @@
 
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
-import { Open_Sans } from '@next/font/google'
-import '../styles/globals.css'
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import { Open_Sans } from '@next/font/google';
+import '../styles/globals.css';
 import mainStyle from '../styles/layout.module.css';
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 const font = Open_Sans({
     subsets: ['latin']
-})
+});
 
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -29,5 +29,5 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Footer />
         </div>
     </div>
-    )
+    );
 }

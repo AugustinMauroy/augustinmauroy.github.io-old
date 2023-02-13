@@ -9,5 +9,5 @@ export default function header(){
             <Link href="/about" className={style.link}>About</Link>
             <Link href="/projects" className={style.link}>Projects</Link>
     </nav>
-    )
-}
+    );
+};
