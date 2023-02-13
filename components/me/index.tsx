@@ -5,12 +5,16 @@ export default function Me(): JSX.Element {
     const [picture, setPicture] = useState(urlPicture[0]);
 
     const changePicture = () => {
-        setPicture(picture === urlPicture[0] ? urlPicture[1] : urlPicture[0]);
+        const pictureIndex = urlPicture.indexOf(picture);
+        const nextIndex = pictureIndex === urlPicture.length - 1 ? 0 : pictureIndex + 1;
+        setPicture(urlPicture[nextIndex]);
     };
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setPicture(picture === urlPicture[0] ? urlPicture[1] : urlPicture[0]);
+            const pictureIndex = urlPicture.indexOf(picture);
+            const nextIndex = pictureIndex === urlPicture.length - 1 ? 0 : pictureIndex + 1;
+            setPicture(urlPicture[nextIndex]);
         }, 5000);
         return () => clearInterval(interval);
     });
