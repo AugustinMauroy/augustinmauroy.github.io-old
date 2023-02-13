@@ -1,0 +1,19 @@
+.project{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--black4);
+    color: var(--black9);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    gap : 1rem;
+}
+
+.project img{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
