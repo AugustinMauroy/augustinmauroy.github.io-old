@@ -11,9 +11,24 @@
     transition: all 0.3s ease-in-out;
     gap : 1rem;
 }
+.text{
+    width: 20rem;
+}
 
 .project img{
-    width: 50%;
-    object-fit: cover;
+    width: 20rem;
     border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 850px){
+    .project{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text{
+        width: 100%;
+    }
+    .project img{
+        width: 100%;
+    }
 }
