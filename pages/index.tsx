@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import style from '../styles/index.module.css';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 import Me from '../components/me';
+import style from '../styles/index.module.css';
 
 export default function Home() {
   return (
   <>
-  <article className={style.main}>
+  <div className={style.main}>
     <div className={style.presentation}>
         <Me />
         <div>
@@ -27,7 +27,11 @@ export default function Home() {
           <Link href='https://twitter.com/_August1_' target='_blank'>Look up my twitter Account</Link>
         </div>
       </div>
-    </article>
+      <div>
+        <h2>Reach me</h2>
+        <p>You can reach me by email: <a href='mailto:augustin.mauroy@outlook.fr'>augustin.mauroy@outlook.fr</a></p>
+      </div>
+    </div>
     </>
   );
 }
