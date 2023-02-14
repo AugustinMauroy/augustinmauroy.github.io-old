@@ -11,14 +11,14 @@ export default function Home() {
         <Me />
         <div>
         <h1>Augustin Mauroy</h1>
-        <p>Hi 👋 I&apos;m Augustin. I&apos;m 16 year old. I&apos;m full stack web dev.</p>
+        <p>Hi 👋 I&apos;m Augustin. I&apos;m 16-year-old. I&apos;m full stack web dev.</p>
         <Link href='/about/'>Read more about me</Link>
         </div>
       </div>
       <div className={style.social}>
         <div>
           <h2><FaGithub /> Github</h2>
-          <p>You can found my Github account. You can find my projects and the projects I have contributed to.</p>
+          <p>You can find my Github account. You can find my projects and the projects I have contributed to.</p>
           <Link href='https://github.com/augustinmauroy' target='_blank'>Look up my github Account</Link>
         </div>
         <div>
