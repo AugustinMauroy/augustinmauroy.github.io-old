@@ -1,10 +1,13 @@
 import Projects from '../components/projects/Index';
+import Style from '../styles/content.module.css';
 
 export default function ProjectsPage(): JSX.Element {
     return (
-        <>
-            <h1>My project</h1>
-            <p>This page contains projects I have worked on or those I have created.</p>
+        <div className={Style.content}>
+            <header className={Style.header}>
+                <h1>My project</h1>
+                <p>This page contains projects I have worked on or those I have created.</p>
+            </header>
             <Projects>
                 {{
                     title: 'Nodejs.dev',
@@ -24,6 +27,6 @@ export default function ProjectsPage(): JSX.Element {
                     url: 'htps://github.com/nodejs/nodejs.org'
                 }}
             </Projects>
-        </>
+        </div>
     );
 }

@@ -1,13 +1,16 @@
 import { FaHtml5, FaCss3, FaNodeJs, FaLanguage } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
+import Style from '../styles/content.module.css';
 
 export default function About(): JSX.Element {
     return (
-        <>
-            <h1>About me</h1>
-            <p>👋 I&apos;m Augustin Mauroy, I&apos;m 16 year old. I&apos;m student.
-            I&apos;m a web developer. I&apos;m also a video editor. I&apos;m I18n lover and Open source lover. <br/>
-            I&apos;m also in Node.js I18n team and in Node.js website team.I contributed to the website redesign.</p>
+        <div className={Style.content}>
+            <header className={Style.header}>
+                <h1>About me</h1>
+                <p>👋 I&apos;m Augustin Mauroy, I&apos;m 16 year old. I&apos;m student.
+                I&apos;m a web developer. I&apos;m also a video editor. I&apos;m I18n lover and Open source lover. <br/>
+                I&apos;m also in Node.js I18n team and in Node.js website team.I contributed to the website redesign.</p>
+            </header>
             <h2>My web dev skills</h2>
             <p>I learned web development on my own thanks to W3school and mdn docs. And i also learned by doing.</p>
             <h3><FaHtml5/> HTML</h3>
@@ -33,6 +36,6 @@ export default function About(): JSX.Element {
             I tinker with a couple of things. Like connecting the led to apple HomeKit.<br/>
             In my free time I also learned video editing on Final Cut Pro X software.<br/>
             </p>
-        </>
+        </div>
     );
 };
