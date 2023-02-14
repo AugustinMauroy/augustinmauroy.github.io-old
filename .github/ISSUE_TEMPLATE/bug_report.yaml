@@ -1,11 +1,11 @@
-name: 🐛 Bug Report For Nodejs Dev Website
+name: 🐛 Bug Report For My Website
 description: Report an issue if something isn't working as expected 🤔.
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for wanting to report an issue you've found on the nodejs.dev website.
+        Thanks for wanting to report an issue you've found on my website.
         Please fill in the template below. If unsure about something, just do as best
         as you're able. If you are reporting a visual glitch, it will be much easier
         for us to fix it when you attach a screenshot as well.
