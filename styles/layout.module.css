@@ -24,13 +24,6 @@
     min-width: 60%;
     margin: 0 auto;
 }
-@media screen and (max-width: 600px){
-    .main{
-        max-width: 100%;
-        min-width: 100%;
-    }
-}
-
 .footer{
     grid-area: footer;
     display: flex;
@@ -43,4 +36,32 @@
 .main a:hover{
     color: var(--brand4);
     text-decoration: underline;    
+}
+@media screen and (max-width: 600px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .main p{
+        font-size: 1rem;
+    }
+    .main h1{
+        font-size: 2rem;
+    }
+    .main h2{
+        font-size: 1.5rem;
+    }
+    .main h3{
+        font-size: 1.2rem;
+    }
+    .footer{
+        font-size: 0.8rem;
+    }
 }
