@@ -12,7 +12,7 @@ export default function ProjectsPage(): JSX.Element {
                 {{
                     title: 'Nodejs.dev',
                     description: 'A redesign of Nodejs.org built using Gatsby.js with React.js, TypeScript, and Remark.',
-                    whatIHaveDone: 'I have work on desing, adding feature and i18n (french) and fixing all are wrong .',
+                    whatIHaveDone: 'I have work on design, adding feature and i18n (french) and fixing all are wrong .',
                     link: 'nodejs/nodejs.dev',
                     url: 'https://github.com/nodejs/nodejs.dev',
                     img: '/nodejs-dev.png'
