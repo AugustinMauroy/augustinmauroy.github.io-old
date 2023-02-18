@@ -1,5 +1,3 @@
-const { optimizeImage } = require('next/dist/server/image-optimizer');
-
 const withMDX = require('@next/mdx')({
     extension: /\.mdx?$/,
 });

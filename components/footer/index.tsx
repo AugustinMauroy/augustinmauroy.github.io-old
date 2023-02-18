@@ -1,6 +1,6 @@
 import style from '../../styles/layout.module.css';
 
-export default function footer(){
+export default function footer(): JSX.Element {
     const date = (startingDate: number): String  => {
         const date = new Date();
         const year = date.getFullYear();

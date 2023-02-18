@@ -2,7 +2,7 @@ import Link from 'next/link';
 import mainStyle from '../../styles/layout.module.css';
 import style from './index.module.css';
 
-export default function header(){
+export default function header(): JSX.Element {
     return(
     <nav className={mainStyle.header}>
             <strong><Link href="/" className={style.link}>Home</Link></strong>

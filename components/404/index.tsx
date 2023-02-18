@@ -1,4 +1,4 @@
-export default function error404() {
+export default function error404(): JSX.Element {
     return (
         <svg enable-background="new 0 0 32 32" height="256px" viewBox="0 0 32 32" width="256px">
         <g><g><g><g>

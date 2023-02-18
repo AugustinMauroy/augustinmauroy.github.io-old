@@ -11,7 +11,7 @@ const font = Open_Sans({
     subsets: ['latin']
 });
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
     <div className={font.className}>
         <Head>

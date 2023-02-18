@@ -2,7 +2,7 @@ import Link from 'next/link';
 import error404 from '../components/404/index';
 import style from '../styles/404.module.css';
 
-export default function error(){
+export default function error(): JSX.Element {
   return (
       <>
         <div className={style.box}>

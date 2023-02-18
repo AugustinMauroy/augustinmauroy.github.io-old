@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter } from 'react-icons/fa';
 import Me from '../components/me';
 import style from '../styles/index.module.css';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
   <>
   <div className={style.main}>
