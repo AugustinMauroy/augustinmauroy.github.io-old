@@ -24,31 +24,37 @@
     min-width: 60%;
     margin: 0 auto;
 }
+
 .footer{
     grid-area: footer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main a{
     color: var(--secondary-color);    
 }
+
 .main a:hover{
     color: var(--brand4);
     text-decoration: underline;    
 }
+
 @media screen and (max-width: 600px){
     .header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .main{
         max-width: 100%;
         min-width: 100%;
         margin: 0;
         padding: 10px;
     }
+
     .main p{
         font-size: 1rem;
     }
@@ -61,6 +67,7 @@
     .main h3{
         font-size: 1.2rem;
     }
+    
     .footer{
         font-size: 0.8rem;
     }
