@@ -1,10 +1,10 @@
 import Projects from '../components/projects/Index';
-import Style from '../styles/content.module.css';
+import Styles from '../styles/content.module.css';
 
 export default function ProjectsPage(): JSX.Element {
     return (
-        <div className={Style.content}>
-            <header className={Style.header}>
+        <div className={Styles.content}>
+            <header className={Styles.header}>
                 <h1>My project</h1>
                 <p>This page contains projects I have worked on or those I have created.</p>
             </header>

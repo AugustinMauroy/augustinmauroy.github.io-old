@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 import Me from '../components/me';
-import style from '../styles/index.module.css';
+import Styles from '../styles/index.module.css';
 
 export default function Home(): JSX.Element {
   return (
   <>
-  <div className={style.main}>
-    <div className={style.presentation}>
+  <div className={Styles.main}>
+    <div className={Styles.presentation}>
         <Me />
         <div>
         <h1>Augustin Mauroy</h1>
@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
         <Link href='/about/'>Read more about me</Link>
         </div>
       </div>
-      <div className={style.social}>
+      <div className={Styles.social}>
         <div>
           <h2><FaGithub /> Github</h2>
           <p>You can find my Github account. You can find my projects and the projects I have contributed to.</p>

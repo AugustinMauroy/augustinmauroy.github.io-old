@@ -1,4 +1,4 @@
-import style from '../../styles/layout.module.css';
+import Styles from '../../styles/layout.module.css';
 
 export default function footer(): JSX.Element {
     const date = (startingDate: number): String  => {
@@ -11,7 +11,7 @@ export default function footer(): JSX.Element {
     };
 
     return(
-    <footer  className={style.footer}>
+    <footer  className={Styles.footer}>
         <p>MIT License copyright © {date(2023)} Augustin Mauroy</p>
     </footer>
     );
