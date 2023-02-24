@@ -1,4 +1,3 @@
-
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Open_Sans } from '@next/font/google';
@@ -30,4 +29,4 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         </div>
     </div>
     );
-}
+};

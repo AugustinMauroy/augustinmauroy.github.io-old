@@ -24,4 +24,4 @@ export default function Me(): JSX.Element {
             <img src={picture} alt="me"  onClick={changePicture}/>
         </>
     );
-}
+};

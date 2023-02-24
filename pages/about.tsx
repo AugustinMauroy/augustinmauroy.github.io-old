@@ -17,7 +17,7 @@ export default function About(): JSX.Element {
             <p>I know an big part of html. I know the semantic, what is deprecated, what is new, etc.</p>
             <h3><FaCss3/> CSS</h3>
             <p>In CSS i can do some responsive design (size, prefer color). I use variables, flexbox, grid, etc. And I can use <em>SAAS</em>.</p>
-            <h3> <SiJavascript /> JavaScript</h3>
+            <h3><SiJavascript /> JavaScript</h3>
             <p>I love JavaScript Back-end with <em>Node.js</em>. In Front-end I know the basic with DOM.<br/>I&apos;m familiar with <em>React.js</em>.</p>
             <p>I know TypeScript and I can use it in my projects.</p>
             <h3><FaNodeJs /> Node.js</h3>

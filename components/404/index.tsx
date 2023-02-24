@@ -14,4 +14,4 @@ export default function error404(): JSX.Element {
         </g></g>
       </svg>
     );
-}
+};

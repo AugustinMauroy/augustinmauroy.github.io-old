@@ -29,4 +29,4 @@ export default function ProjectsPage(): JSX.Element {
             </Projects>
         </div>
     );
-}
+};
