@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import mainStyle from '../../styles/layout.module.css';
-import Styles from './index.module.css';
+import mainStyle from '../../styles/layout.module.scss';
+import Styles from './index.module.scss';
 
 export default function header(): JSX.Element {
     return(

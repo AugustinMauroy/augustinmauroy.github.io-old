@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3, FaNodeJs, FaLanguage } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
-import Style from '../styles/content.module.css';
+import Style from '../styles/content.module.scss';
 
 export default function About(): JSX.Element {
     return (

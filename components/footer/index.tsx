@@ -1,4 +1,4 @@
-import Styles from '../../styles/layout.module.css';
+import Styles from '../../styles/layout.module.scss';
 
 export default function footer(): JSX.Element {
     const date = (startingDate: number): String  => {
