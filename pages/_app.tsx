@@ -1,10 +1,10 @@
+import { Open_Sans } from '@next/font/google';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { Open_Sans } from '@next/font/google';
+import Footer from '../components/footer';
+import Header from '../components/header';
 import '../styles/globals.scss';
 import mainStyle from '../styles/layout.module.scss';
-import Header from '../components/header';
-import Footer from '../components/footer';
 
 const font = Open_Sans({
     subsets: ['latin']

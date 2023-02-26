@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Styles from "./index.module.scss";
+import Link from 'next/link';
+import Styles from './index.module.scss';
 
 type TypeProjects = {
     children: {
@@ -20,9 +20,8 @@ export default function Projects({ children }: TypeProjects): JSX.Element{
             <p>{children.description}</p>
             <p>{children.whatIHaveDone}</p>
             <Link href={children.link} />
-            </div>
+        </div>
             {children.img? <img src={children.img} alt={children.title} /> : null}
         </div>
     );
 };
-

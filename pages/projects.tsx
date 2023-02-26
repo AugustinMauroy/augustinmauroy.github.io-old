@@ -1,4 +1,4 @@
-import Projects from '../components/projects/Index';
+import Projects from '../components/projects/index';
 import Styles from '../styles/content.module.scss';
 
 export default function ProjectsPage(): JSX.Element {
@@ -24,7 +24,7 @@ export default function ProjectsPage(): JSX.Element {
                     description: 'The Node.js website.',
                     whatIHaveDone: 'I have work in I18n and i fixing some think in the website.',
                     link: 'nodejs/nodejs.org',
-                    url: 'htps://github.com/nodejs/nodejs.org'
+                    url: 'https://github.com/nodejs/nodejs.org'
                 }}
             </Projects>
         </div>
