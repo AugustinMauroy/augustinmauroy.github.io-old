@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export default function Me(): JSX.Element {
-    const urlPicture: string[] = ['me.jpeg', 'me-octocat.png'];
+    const urlPicture: string[] = ['me.jpeg', 'me-octocat.png', 'me2.jpeg'];
     const [picture, setPicture] = useState<string>(urlPicture[0]);
 
     const changePicture = () => {
