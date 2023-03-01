@@ -8,7 +8,7 @@ export default function About(): JSX.Element {
             <header className={Style.header}>
                 <h1>About me</h1>
                 <p>👋 I&apos;m Augustin Mauroy, I&apos;m 16-year-old. I&apos;m student. I&apos;m a web developer. I&apos;m also a video editor. I&apos;m I18n lover and Open-source lover. 
-                I&apos;m also in Node.js I18n team and in Node.js website team. I contributed to the website redesign.
+                I&apos;m also in Node.js I18n team and in Node.js website team. I contributed to the website redesign.<br /> I from Belgium.
                 </p>
             </header>
             <h2>My web dev skills</h2>
