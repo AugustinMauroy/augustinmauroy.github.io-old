@@ -31,6 +31,11 @@ export default function Home(): JSX.Element {
         <h2>Reach me</h2>
         <p>You can reach me by email: <a href='mailto:augustin.mauroy@outlook.fr'>augustin.mauroy@outlook.fr</a></p>
       </div>
+      <div className={Styles.ukraine}>
+        <h2>I Stand with Ukraine</h2>
+        <p>Ukraine is a country that has been attacked by Russia. I stand with Ukraine.</p>
+        <Link href='https://www.unicef.org/emergencies/war-ukraine-pose-immediate-threat-children' target='_blank'><strong>Support for children and families</strong></Link>
+      </div>
     </div>
     </>
   );

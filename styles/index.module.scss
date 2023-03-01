@@ -30,3 +30,19 @@
 .social h2{
   color: var(--brand5);
 }
+
+.ukraine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-image: url('/ukraine.jpg');
+  background-size:contain;
+  padding: 1rem;
+  margin: -1rem;
+  border-radius: 1rem;
+
+  a:hover{
+    color: var(--info6);
+  }
+}
