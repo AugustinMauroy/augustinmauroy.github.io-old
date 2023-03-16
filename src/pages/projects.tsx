@@ -1,4 +1,4 @@
-import Projects from '../components/projects/index';
+import Projects from '@/components/projects';
 import Styles from '../styles/content.module.scss';
 
 export default function ProjectsPage(): JSX.Element {

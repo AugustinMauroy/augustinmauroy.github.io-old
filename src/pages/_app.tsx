@@ -1,8 +1,8 @@
-import { Open_Sans } from '@next/font/google';
 import type { AppProps } from 'next/app';
+import { Open_Sans } from 'next/font/google';
 import Head from 'next/head';
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Footer from '@/components/footer';
+import Header from '@/components/header';
 import '../styles/globals.scss';
 import mainStyle from '../styles/layout.module.scss';
 

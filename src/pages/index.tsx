@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
-import Me from '../components/me';
+import Me from '@/components/me';
 import Styles from '../styles/index.module.scss';
 
 export default function Home(): JSX.Element {

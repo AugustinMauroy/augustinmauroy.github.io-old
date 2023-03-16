@@ -5,6 +5,7 @@
     "@next/next/no-img-element": "off",
     "semi": ["error", "always"],
     "quotes": ["error", "single"],
+    "eol-last": ["error", "always"],
     "import/order": [
       "error",
       {
