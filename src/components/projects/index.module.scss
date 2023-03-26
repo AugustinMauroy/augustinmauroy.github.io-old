@@ -1,4 +1,4 @@
-.project{
+.project {
     margin: 1rem;
     padding: 1rem;
     background-color: var(--black4);
@@ -9,26 +9,28 @@
     align-items: center;
     justify-content: space-between;
     transition: all 0.3s ease-in-out;
-    gap : 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 10px 0 var(--secondary-color);
 }
-.text{
+
+.text {
     width: 20rem;
 }
 
-.project img{
+.project img {
     width: 20rem;
     border-radius: 0.5rem;
 }
 
-@media screen and (max-width: 850px){
-    .project{
+@media screen and (max-width: 850px) {
+    .project {
         flex-direction: column;
         align-items: flex-start;
     }
-    .text{
+    .text {
         width: 100%;
     }
-    .project img{
+    .project img {
         width: 100%;
     }
 }
