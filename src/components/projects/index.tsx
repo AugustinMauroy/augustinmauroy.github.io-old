@@ -12,16 +12,18 @@ type TypeProjects = {
     };
 };
 
-export default function Projects({ children }: TypeProjects): JSX.Element{
+export default function Projects({ children }: TypeProjects): JSX.Element {
     return (
         <div className={Styles.project}>
             <div className={Styles.text}>
-            <h2>{children.title}</h2>
-            <p>{children.description}</p>
-            <p>{children.whatIHaveDone}</p>
-            <Link href={children.link} />
-        </div>
-            {children.img? <img src={children.img} alt={children.title} /> : null}
+                <h2>{children.title}</h2>
+                <p>{children.description}</p>
+                <p>{children.whatIHaveDone}</p>
+                <Link href={children.link} />
+            </div>
+            {children.img ? (
+                <img src={children.img} alt={children.title} />
+            ) : null}
         </div>
     );
-};
+}

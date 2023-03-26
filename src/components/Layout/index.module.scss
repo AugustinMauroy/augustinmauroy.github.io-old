@@ -1,11 +1,26 @@
-.body{
+.link {
+    text-decoration: none;
+    font-size: large;
+    color: var(--secondary-color);
+}
+.link:hover {
+    color: var(--brand4);
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .link {
+        font-size: x-large;
+    }
+}
+
+.layout {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: "header" "main" "footer";
+    grid-template-areas: 'header' 'main' 'footer';
     min-height: 100vh;
 }
 
-.header{
+.header {
     grid-area: header;
     z-index: 1;
     display: flex;
@@ -15,7 +30,7 @@
     padding: 1rem;
 }
 
-.main{
+.main {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -25,50 +40,50 @@
     margin: 0 auto;
 }
 
-.footer{
+.footer {
     grid-area: footer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main a{
-    color: var(--secondary-color);    
+.main a {
+    color: var(--secondary-color);
 }
 
-.main a:hover{
+.main a:hover {
     color: var(--brand4);
-    text-decoration: underline;    
+    text-decoration: underline;
 }
 
-@media screen and (max-width: 600px){
-    .header{
+@media screen and (max-width: 600px) {
+    .header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .main{
+    .main {
         max-width: 100%;
         min-width: 100%;
         margin: 0;
         padding: 10px;
     }
 
-    .main p{
+    .main p {
         font-size: 1rem;
     }
-    .main h1{
+    .main h1 {
         font-size: 2rem;
     }
-    .main h2{
+    .main h2 {
         font-size: 1.5rem;
     }
-    .main h3{
+    .main h3 {
         font-size: 1.2rem;
     }
-    
-    .footer{
+
+    .footer {
         font-size: 0.8rem;
     }
 }
