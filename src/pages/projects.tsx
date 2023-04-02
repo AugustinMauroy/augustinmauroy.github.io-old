@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 
-export default function ProjectPage(): JSX.Element {
+export default function ProjectsPage(): JSX.Element {
     return (
         <>
             <Hero>
