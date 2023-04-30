@@ -1,37 +1,23 @@
-import Link from 'next/link';
+import { Open_Sans } from 'next/font/google';
+import Footer from '../Sections/Footer';
+import Header from '../Sections/Header';
 import styles from './index.module.scss';
 
-export type LayoutProps = {
+const font = Open_Sans({
+    subsets: ['latin'],
+});
+
+type Props = {
     children: React.ReactNode;
 };
 
-const date = (startingDate: number): String => {
-    const date = new Date();
-    const year = date.getFullYear();
-    if (startingDate > year) return `${year} - ${startingDate}`;
-    return year.toString();
-};
-
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export default function Layout({ children }: Props) {
+    const classes = [styles.container, font.className].join(' ');
     return (
-        <div className={styles.layout}>
-            <nav className={styles.header}>
-                <strong>
-                    <Link href="/" className={styles.link}>
-                        Home
-                    </Link>
-                </strong>
-                <Link href="/about" className={styles.link}>
-                    About
-                </Link>
-                <Link href="/projects" className={styles.link}>
-                    Projects
-                </Link>
-            </nav>
+        <div className={classes}>
+            <Header className={styles.header} />
             <main className={styles.main}>{children}</main>
-            <footer className={styles.footer}>
-                <p>MIT License copyright © {date(2023)} Augustin Mauroy</p>
-            </footer>
+            <Footer className={styles.footer} />
         </div>
     );
 }

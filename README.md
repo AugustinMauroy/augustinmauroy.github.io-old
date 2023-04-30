@@ -1,9 +1,5 @@
-# My portfolio
+# [augustinmauroy.github.io](https://augustinmauroy.github.io)
 
-My portfolio it's to provide my skills and my projects.
+## Overview
 
-> You can see my portfolio [here](https://augustinmauroy.github.io/)
-
-## Technical information
-
-It's build with next.js and github page
+This repository contains the source code of my personal website. It is built using [next.js](https://nextjs.org/).

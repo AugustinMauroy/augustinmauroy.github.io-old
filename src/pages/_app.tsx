@@ -1,28 +1,36 @@
+import '@/styles/globals.scss';
 import { AppProps } from 'next/app';
-import { Open_Sans } from 'next/font/google';
 import Head from 'next/head';
 import Layout from '@/components/Layout';
-import '@/styles/globals.scss';
 
-const font = Open_Sans({
-    subsets: ['latin'],
-});
-
-export default function App({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>Augustin&apos;s Portfolio</title>
-                <link rel="icon" type="image/x-icon" href="logo.ico" />
-                <link rel="icon" type="image/xml-svg" href="logo.svg" />
-                <meta name="description" content="Augustin's Portfolio" />
-                <meta name="og:title" content="Augustin's Portfolio" />
+                <title>Augustin .M&lsquo;s Website</title>
+                <meta
+                    name="description"
+                    content="Augustin .M&lsquo;s Website"
+                />
+                <link rel="icon" href="/static/iconography/favicon.svg" />
+                <link
+                    rel="apple-touch-icon"
+                    href="/static/iconography/favicon.svg"
+                />
+                <meta
+                    property="og:image"
+                    content="/static/iconography/card.png"
+                />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta
+                    property="og:title"
+                    content="Augustin .M&lsquo;s Website"
+                />
             </Head>
-            <div className={font.className}>
-                <Layout>
-                    <Component {...pageProps} />
-                </Layout>
-            </div>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
         </>
     );
 }

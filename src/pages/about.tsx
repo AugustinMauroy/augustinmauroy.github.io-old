@@ -1,21 +1,10 @@
 import { FaHtml5, FaCss3, FaNodeJs, FaLanguage } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
-import Hero from '@/components/Hero';
+import styles from '@/styles/pages/content.module.scss';
 
-export default function About(): JSX.Element {
+export default function PageAbout(): JSX.Element {
     return (
-        <div>
-            <Hero>
-                <h1>About me</h1>
-                <p>
-                    👋 I&apos;m Augustin Mauroy, I&apos;m 16-year-old. I&apos;m
-                    student. I&apos;m a web developer. I&apos;m also a video
-                    editor. I&apos;m I18n lover and Open-source lover. I&apos;m
-                    also in Node.js I18n team and in Node.js website team. I
-                    contributed to the website redesign.
-                    <br /> I from Belgium.
-                </p>
-            </Hero>
+        <div className={styles.container}>
             <h2>My web dev skills</h2>
             <p>
                 I learned web development on my own thanks to W3school and mdn
@@ -33,7 +22,7 @@ export default function About(): JSX.Element {
             </h3>
             <p>
                 In CSS i can do some responsive design (size, prefer color). I
-                use variables, flexbox, grid, etc. And I can use <em>SAAS</em>.
+                use variables, flexbox, grid, etc. And I can use <em>SASS</em>.
             </p>
             <h3>
                 <SiJavascript /> JavaScript

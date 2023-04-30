@@ -1,0 +1,12 @@
+.container {
+    margin: 1rem 10rem;
+
+    @media (max-width: 768px) {
+        margin: 0 2rem;
+    }
+
+    img {
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+}

@@ -1,29 +1,30 @@
 import Link from 'next/link';
-import Styles from './index.module.scss';
+import styles from './index.module.scss';
 
-type TypeProjects = {
-    children: {
-        title: string;
-        description: string;
-        whatIHaveDone: string;
-        link: string;
-        url: string;
-        img?: string;
-    };
+type ProjectsProps = {
+    title: string;
+    description: string;
+    whatIHaveDone: string;
+    link: string;
+    img?: string;
 };
 
-export default function Projects({ children }: TypeProjects): JSX.Element {
+export default function Projects({
+    title,
+    description,
+    whatIHaveDone,
+    img,
+    link,
+}: ProjectsProps) {
     return (
-        <div className={Styles.project}>
-            <div className={Styles.text}>
-                <h2>{children.title}</h2>
-                <p>{children.description}</p>
-                <p>{children.whatIHaveDone}</p>
-                <Link href={children.link} />
+        <div className={styles.project}>
+            <div className={styles.text}>
+                <h2>{title}</h2>
+                <p>{description}</p>
+                <p>{whatIHaveDone}</p>
+                <Link href={link} />
             </div>
-            {children.img ? (
-                <img src={children.img} alt={children.title} />
-            ) : null}
+            {img ? <img src={img} alt={title} /> : null}
         </div>
     );
 }
