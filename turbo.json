@@ -4,12 +4,9 @@
         "build": {
             "outputs": [".next/**", "!.next/cache/**"]
         },
-        "lint": {
-            "outputs": []
-        },
+        "lint": {},
         "dev": {
-            "cache": false,
-            "persistent": true
+            "cache": false
         }
     }
 }
