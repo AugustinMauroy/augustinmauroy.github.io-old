@@ -1,5 +1,5 @@
+import Projects from '@/components/Projects';
 import styles from '@/styles/pages/content.module.scss';
-import Projects from '@/components/Projects/index';
 
 export default function PageProjects(): JSX.Element {
     return (
