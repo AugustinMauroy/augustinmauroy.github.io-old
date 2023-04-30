@@ -58,7 +58,9 @@ jobs:
                   path: |
                       .next/cache
                       node_modules/.cache
-                  key: build-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('node_modules/.cache') }}
+                  key: build-${{ hashFiles('**/package-lock.json') }}-
+                  restore-keys: |
+                      build-${{ hashFiles('**/package-lock.json') }}-
                   enableCrossOsArchive: true
 
             - name: Export Next.js static files
